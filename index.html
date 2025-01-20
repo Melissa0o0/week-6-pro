@@ -7,16 +7,44 @@
     <title>Document</title>
   </head>
   <body>
-    <footer>
-      Coded by
-      <a href="https://github.com/Melissa0o0" target="_blank"> Melissa Sh</a>.
-      It is open sourced on
-      <a href="https://github.com/Melissa0o0/week-6-pro" target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://week-6-project.netlify.app" target="_blank"> Netlify</a>.
-    </footer>
+    <div id="weather-app">
+      <div>
+        <form action="search" method="get" id="search-box">
+          <input type="text" name="Enter a city" id="input-city" />
+          <input type="submit" value="Search" id="search-button" />
+        </form>
+      </div>
+
+      <div id="quote">
+        <p>My moods matches the weather!</p>
+      </div>
+      <main>
+        <h1 id="main-info">
+          <p id="current-city"></p>
+          <p id="date-time"></p>
+        </h1>
+        <div id="emoji"></div>
+        <div id="temperature">
+          <h3><span id="current-temp"></span>°C</h3>
+          <p id="temp-comment">Scattered clouds</p>
+        </div>
+        <div id="current-conditions">
+          <p>Humidity: 66%</p>
+          <p>Wind: 3.13%</p>
+        </div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/Melissa0o0" target="_blank"> Melissa Sh</a>.
+        It is open sourced on
+        <a href="https://github.com/Melissa0o0/week-6-pro" target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://week-6-project.netlify.app" target="_blank"> Netlify</a
+        >.
+      </footer>
+    </div>
   </body>
   <script src="java.sc"></script>
 </html>

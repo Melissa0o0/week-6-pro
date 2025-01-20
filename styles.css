@@ -1,0 +1,54 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: #212121;
+  background-color: #c890a7;
+  background-image: linear-gradient(#c890a7, #a35c7a);
+  padding: 20px 0;
+  width: 100%;
+  position: relative;
+}
+#weather-app {
+  padding: 40px 20px;
+  max-width: 60%;
+  display: block;
+  margin: auto;
+  background-color: #fbf5e5;
+  border-radius: 5px;
+  border: solid 1px #a35c7a;
+}
+#search-box {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: block;
+  align-self: center;
+}
+#input-city {
+  width: 55%;
+  font-size: 16px;
+  padding: 5px 10px;
+  font-family: "Ubuntu Mono", serif;
+  font-weight: 300;
+  background-color: #fbf5e5;
+  border-radius: 5px;
+  border: solid 1px #a35c7a;
+}
+#search-button {
+  font-size: 16px;
+  padding: 5px 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 300;
+  background-color: #c890a7;
+  border-radius: 5px;
+  border: solid 1px #a35c7a;
+}
+#search-button:hover {
+  background-color: #a35c7a;
+  transition: 200ms ease-in-out;
+}
+#quote {
+  text-align: center;
+  align-self: center;
+  font-style: oblique;
+  font-family: "Times New Roman", Times, serif;
+}
